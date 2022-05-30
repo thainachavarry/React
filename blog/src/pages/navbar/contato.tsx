@@ -1,6 +1,9 @@
+import Navbar from "../../components/Navbar";
+
 const Contato = () =>{
     return (
       <div>
+        <Navbar />
         <h3>Contato</h3>
         <div>
         <img src="src/imgs/logoFotoTexto.png"/>
@@ -8,4 +11,4 @@ const Contato = () =>{
       </div>
     );
   }
-  export default Contato;
+  export default Contato; 

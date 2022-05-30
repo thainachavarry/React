@@ -1,8 +1,11 @@
 import AppRouter from './routes';
 
+
 function App() {
   return (
-  <div>
+  <div style={{
+    backgroundColor: 'white'
+  }}>
   <AppRouter />
   </div>
   )
@@ -10,4 +13,3 @@ function App() {
 }
 
 export default App
-
