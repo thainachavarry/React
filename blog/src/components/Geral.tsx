@@ -45,6 +45,7 @@ font-family: 'Open Sans', sans-serif;
 border-radius: 10px;
 cursor:pointer;
 margin-top: 2%;
+margin-bottom: 10%;
 `;
 
 export const ContainerImagens = styled.div`

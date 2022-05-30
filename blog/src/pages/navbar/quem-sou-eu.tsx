@@ -42,7 +42,6 @@ const QuemSouEu = () =>{
       </ContainerGeral>
       
         <Foot>
-       
         <a target="_blank" href="https://wa.me/5561999843235" style={{color: "white", marginRight: "1%"}}><BotaoContato>Whatsapp</BotaoContato></a>
         <a target="_blank" href="https://www.instagram.com/janavpedagoga/" style={{color: "white"}}><BotaoContato>Instagram</BotaoContato></a>
         </Foot></>
