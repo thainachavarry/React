@@ -11,12 +11,12 @@ const QuemSouEu = () =>{
         <ContainerDentro>
           <ContainerTexto>
             <Titulo>Um pouco sobre mim...</Titulo>
-            <ConteudoTextoHome>Olá, eu sou a Janaina Victor, tenho 45 anos de idade e sou apaixonada por pedagogia e atualmente sou professora da secretaria do Ditrito Federal.
-              Sou formada em Pedagogia e tenho pós-graduação em Neuropsicopedagogia Clínica e estou me aperfeiçoando ainda mais em outros cursos.
+            <ConteudoTextoHome>Olá, eu sou a Janaina Victor, tenho 45 anos de idade e sou apaixonada por pedagogia e sou professora da secretaria de educação do Ditrito Federal há 17 anos.
+              Sou formada em Pedagogia e tenho pós-graduação em Neuropsicopedagogia Clínica e estou me aperfeiçoando ainda mais em outros cursos de capacitação.
             </ConteudoTextoHome>
-            <ConteudoTextoHome> Meu objetivo é ajudar ainda mais as pessoas, por isso decidi começar os atendimentos com crianças que sofrem por algum tipo de transtorno de aprendizagem.
+            <ConteudoTextoHome> Meu objetivo é ajudar ainda mais as pessoas, por isso decidi começar meus atendimentos com crianças que sofrem com algum tipo de dificuldade ou transtornos de aprendizagem.
             </ConteudoTextoHome>
-            <ConteudoTextoHome> Comigo, você conseguirá entender a aprender as melhores formas de desenvolver seu aprendizado e comunicação, solucionando as dificuldades cognitivas diagnosticadas.
+            <ConteudoTextoHome> Comigo, você conseguirá conhecer novos caminhos para desenvolver um aprendizado significativo, solucionando suas dificuldades cognitivas apresentadas.
             </ConteudoTextoHome>
             <ContainerCentroBotao>
               <NavLink to='/contato'>
@@ -43,8 +43,8 @@ const QuemSouEu = () =>{
       
         <Foot>
        
-        <a target="_blank" href="https://wa.me/5561999843235" style={{color: "white"}}><BotaoContato>Whatsapp</BotaoContato></a>
-        
+        <a target="_blank" href="https://wa.me/5561999843235" style={{color: "white", marginRight: "1%"}}><BotaoContato>Whatsapp</BotaoContato></a>
+        <a target="_blank" href="https://www.instagram.com/janavpedagoga/" style={{color: "white"}}><BotaoContato>Instagram</BotaoContato></a>
         </Foot></>
       
 
