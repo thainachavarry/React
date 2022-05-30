@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 
 export const ContainerGeral = styled.nav` 
@@ -43,6 +44,7 @@ border: none;
 font-family: 'Open Sans', sans-serif;
 border-radius: 10px;
 cursor:pointer;
+margin-top: 2%;
 `;
 
 export const ContainerImagens = styled.div`
@@ -53,8 +55,9 @@ width: 20%
 export const Foot = styled.footer`
 text-align: center;
 margin: 0 auto;
-margin-top: 3%;
+margin-top: 5%;
 width: 1240px;
 border-top: solid 2px #612C94;
 
 `;
+

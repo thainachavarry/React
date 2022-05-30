@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BotaoContato, ContainerCentroBotao, ContainerDentro, ContainerGeral, ContainerImagens, ContainerTexto, ConteudoTextoHome, Foot, Titulo } from "../../components/Geral";
 import Navbar from "../../components/Navbar";
 
@@ -42,7 +42,9 @@ const QuemSouEu = () =>{
       </ContainerGeral>
       
         <Foot>
-          Contato
+       
+        <a target="_blank" href="https://wa.me/5561999843235" style={{color: "white"}}><BotaoContato>Whatsapp</BotaoContato></a>
+        
         </Foot></>
       
 
