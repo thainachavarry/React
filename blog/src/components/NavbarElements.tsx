@@ -44,7 +44,17 @@ export const ImgNav = styled.img`
   width: 64px;
 `;
 
-export const SearchIcon = styled.svg`
-height: 40%
+export const ContainerIcone = styled.div`
+height: 50%;
+color: #612C94;
+margin-right: 85px;
 `;
 
+export const TextField = styled.input`
+margin-top: -23px;
+margin-left: 10px;
+`;
+
+export const ariaLabel = styled.label`
+color:purple;
+`;

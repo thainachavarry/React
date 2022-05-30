@@ -4,11 +4,15 @@ import {
     NavLink,
     NavMenu,
     ImgNav,
-    MenuWrapper
+    MenuWrapper,
+    ContainerIcone,
+    ariaLabel,
     } from './NavbarElements';
 
     import imgNavBar from '../imgs/Logo.png'   
     import SearchIcon from '@mui/icons-material/Search';
+import TextField from "@mui/material/TextField/";
+import { Input } from "@mui/material";
 
 
 function Navbar() {
@@ -31,10 +35,14 @@ function Navbar() {
                     </NavMenu>
                 </MenuWrapper>
             
+                <ContainerIcone>            
                 <SearchIcon>
-                    <svg data-testid="SearchIcon"></svg>
+                    <svg data-testid="SearchIcon" style={{marginRight: "85px"}}></svg>
                 </SearchIcon>
-            </Nav>
+                <Input placeholder="Pesquise" inputProps={ariaLabel} />
+                </ContainerIcone>
+                
+                </Nav>
         </>
     );
 }
