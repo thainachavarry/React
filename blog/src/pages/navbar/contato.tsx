@@ -9,7 +9,7 @@ const Contato = () =>{
           <ContainerTexto>
             <Titulo>Contato</Titulo>
             <ConteudoTextoHome>
-              Para agendamentos de consulta: <br></br>
+              Para agendar um atendimento: <br></br>
               <a target="_blank" href="https://wa.me/5561999843235" style={{color: "white", marginRight: "1%", marginBottom: "5%"}}><BotaoContato>(61) 99984-3235 </BotaoContato></a> <br></br>
               Caso prefira, também pode enviar um e-mail: <br></br>
               <a target="_blank" href="mailto:jsvc76@gmail.com" style={{color: "white"}}><BotaoContato>jsvc76@gmail.com</BotaoContato></a> <br></br>

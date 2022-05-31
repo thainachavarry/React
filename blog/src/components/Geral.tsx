@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const ContainerGeral = styled.nav` 
     max-width: 1240px;
     margin: 0 auto;
+    transition: 2s;
 
 `;
 
@@ -15,12 +16,14 @@ color: #612C94;
 
 export const ContainerTexto = styled.div`
 width: 53%;
+transition: 2s;
 `;
 
 export const ConteudoTextoHome = styled.p`
 width: 94%;
 font-size: 110%;
 font-family: 'Open Sans', sans-serif;
+
 `;
 
 export const ContainerDentro = styled.nav`

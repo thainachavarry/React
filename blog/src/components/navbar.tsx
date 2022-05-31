@@ -28,20 +28,8 @@ function Navbar() {
                         <NavLink to='/contato'>
                             Contato
                         </NavLink>
-
-                        <NavLink to='/projetos'>
-                            Projeto
-                        </NavLink>
                     </NavMenu>
-                </MenuWrapper>
-            
-                <ContainerIcone>            
-                <SearchIcon>
-                    <svg data-testid="SearchIcon" style={{marginRight: "85px"}}></svg>
-                </SearchIcon>
-                <Input placeholder="Pesquise" inputProps={ariaLabel} />
-                </ContainerIcone>
-                
+                </MenuWrapper>                
                 </Nav>
         </>
     );
